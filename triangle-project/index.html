@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="question">
+      <label>
+        <input type="radio" name="type-of-triangle" value="right-angle"> Right Angle Triangle.
+      </label>
+      <label>
+        <input type="radio" name="type-of-triangle" value="equilateral"> Equilateral Triangle.
+      </label>
+    </div>
+
+    <div class="char-input">
+      <input class="js-fillup-char" placeholder="Fill up character">
+      <input class="js-negative-space-char" placeholder="Negative space character">
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button class="js-submit-button">Submit</button>
+    <button class="js-erase-button">Erase</button>
+  </div>
+  <div class="js-result result"></div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
